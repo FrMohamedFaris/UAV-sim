@@ -1,59 +1,66 @@
-# UAV-Sim ✈️
+# UAV-Sim
 
-A modular UAV flight simulation and visualization platform that combines:
+<p align="center">
 
-- 3D CAD/STEP models
-- UAV flight dynamics
-- Launch-angle simulation
-- Wind and gust modelling
-- Aerodynamic force modelling
-- 3D UAV visualization
-- Real-time simulation HUD
-- MP4 flight rendering
-- Planned LBM/CFD integration inspired by the rendering concepts used in Spectrometry
+**UAV Flight & Aerodynamic Simulation Framework**
+
+CAD Geometry → CFD → LBM → Aerodynamic Visualization → Dynamic Flight
+
+</p>
 
 ---
 
-## 🚧 Project Status
+## 🚧 Pre-Release
 
-**Current stage: Stage 5 — Flight + Wind Visualization**
+**Current version: `v0.1.0-pre.1`**
 
-The current version can:
+UAV-Sim is currently under active development.
 
-- Load a UAV from a STEP CAD file
-- Convert the CAD model into a visualization mesh
-- Display the UAV in a 3D environment
-- Simulate UAV position and velocity
-- Simulate launch angle
-- Simulate pitch changes through a flight profile
-- Apply gravity
-- Apply thrust
-- Calculate simplified aerodynamic lift and drag
-- Calculate relative air velocity
-- Generate a configurable wind field
-- Add wind gusts
-- Visualize airflow around the UAV
-- Display simulation information through a HUD
-- Render the simulation to MP4
+This pre-release establishes the foundation for a UAV aerodynamic simulation framework using:
 
-### Current pipeline
+- UAV geometry
+- 2D computational fluid dynamics
+- D2Q9 Lattice Boltzmann Method (LBM)
+- Velocity-field visualization
+- Vorticity visualization
+- Angle-of-attack control
+- Physical flight-condition calculations
 
-STEP CAD
-   ↓
-OpenCascade / CadQuery
-   ↓
-3D Mesh
-   ↓
-UAV Flight Physics
-   ↓
-Wind Field
-   ↓
-Relative Airflow
-   ↓
-Lift + Drag
-   ↓
-3D Visualization
-   ↓
-HUD
-   ↓
-MP4
+The next development stage will introduce:
+
+- Dynamic angle of attack
+- Acceleration
+- Launch
+- Climb
+- Cruise
+- Descent
+- Landing
+- Dynamic flight-state simulation
+- 3D UAV visualization
+- Animated CFD
+- Flight trajectory
+
+---
+
+# Overview
+
+UAV-Sim is an experimental UAV simulation framework designed to connect **aircraft geometry, aerodynamic simulation and flight dynamics** into a single workflow.
+
+The long-term goal is to allow a user to provide a UAV model and flight conditions such as:
+
+```text
+UAV Geometry
+     ↓
+Mass
+     ↓
+Launch Angle
+     ↓
+Initial Speed
+     ↓
+Altitude
+     ↓
+Wind
+     ↓
+Angle of Attack
+     ↓
+Flight State
