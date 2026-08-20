@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ab259df-bfa2-42b1-b820-6719fd224722" name="Changes" comment="" />
+    <list default="true" id="9ab259df-bfa2-42b1-b820-6719fd224722" name="Changes" comment="test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +18,8 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../UAV-sim" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
@@ -44,8 +45,11 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.animate_flight.executor": "Run",
+    "Python.main.executor": "Run",
     "Python.plot_flight.executor": "Run",
     "Python.scene.executor": "Run",
+    "Python.test_physical_scaling.executor": "Run",
+    "Python.test_uav_cfd.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "git-widget-placeholder": "main",
@@ -61,6 +65,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../UAV-sim/assets/aircraft" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../UAV-sim/assets/aircraft" />
     </key>
   </component>
@@ -80,14 +87,30 @@
       <option name="presentableId" value="Default" />
       <updated>1787087989623</updated>
       <workItem from="1787087990920" duration="8149000" />
-      <workItem from="1787113214013" duration="204000" />
+      <workItem from="1787113214013" duration="12861000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <option name="closed" value="true" />
+      <created>1787263623198</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1787263623198</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/droneLaunch$main.coverage" NAME="main Coverage Results" MODIFIED="1787263378224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../UAV-sim" />
+    <SUITE FILE_PATH="coverage/droneLaunch$test_uav_cfd.coverage" NAME="test_uav_cfd Coverage Results" MODIFIED="1787262922173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../UAV-sim/scripts" />
+    <SUITE FILE_PATH="coverage/droneLaunch$test_physical_scaling.coverage" NAME="test_physical_scaling Coverage Results" MODIFIED="1787262831776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../UAV-sim/scripts" />
     <SUITE FILE_PATH="coverage/UAV_Sim$animate_flight.coverage" NAME="animate_flight Coverage Results" MODIFIED="1787112988797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../UAV-sim/scripts" />
     <SUITE FILE_PATH="coverage/UAV_Sim$plot_flight.coverage" NAME="plot_flight Coverage Results" MODIFIED="1787110142510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../UAV-sim/scripts" />
     <SUITE FILE_PATH="coverage/UAV_Sim$scene.coverage" NAME="scene Coverage Results" MODIFIED="1787112479172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../UAV-sim/src/uavsim/visualization" />
